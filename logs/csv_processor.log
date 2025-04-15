@@ -1,0 +1,528 @@
+2025-04-13 19:16:31.155 [com.example.DataManagement.main()] INFO  com.example.DataManagement - Starting CSV Processor Application
+2025-04-13 19:16:31.164 [com.example.DataManagement.main()] INFO  com.example.FileWatcher - Starting file watcher for directory: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\in
+2025-04-13 19:41:33.002 [Thread-2] INFO  com.example.DataManagement - Application shutdown complete
+2025-04-13 20:36:44.942 [com.example.DataManagement.main()] INFO  com.example.DataManagement - Starting CSV Processor Application
+2025-04-13 20:36:44.949 [com.example.DataManagement.main()] INFO  com.example.FileWatcher - Starting file watcher for directory: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\in
+2025-04-13 20:40:17.632 [Thread-2] INFO  com.example.DataManagement - Application shutdown complete
+2025-04-13 20:53:50.325 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 20:53:50.329 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\in\InstrumentDetails.csv (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:28) [classes/:?]
+2025-04-13 20:53:52.522 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73bd2335208sm4871253b3a.166 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:113) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:46) [classes/:?]
+2025-04-13 20:55:21.864 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 20:55:21.867 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\in\InstrumentDetails.csv (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:28) [classes/:?]
+2025-04-13 20:55:23.967 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22ac7b628desm82088075ad.20 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:113) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:46) [classes/:?]
+2025-04-13 20:57:30.049 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 21:25:12.439 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\in\InstrumentDetails.csv (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:28) [classes/:?]
+2025-04-13 21:25:22.933 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 21:25:37.489 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\in\InstrumentDetails.csv (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:28) [classes/:?]
+2025-04-13 21:25:39.211 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22ac7b8afe3sm82395545ad.75 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:113) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:46) [classes/:?]
+2025-04-13 21:33:31.171 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 21:33:34.289 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: .\in\InstrumentDetails.csv (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:28) [classes/:?]
+2025-04-13 21:33:36.469 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-306eaec023asm7835986a91.33 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:113) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:46) [classes/:?]
+2025-04-13 21:52:57.701 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 21:53:03.228 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: ..\in\InstrumentDetails.csv (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:28) [classes/:?]
+2025-04-13 21:53:05.214 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22ac7cb5054sm82669405ad.172 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:113) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:46) [classes/:?]
+2025-04-13 21:58:19.613 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 21:58:23.507 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: ..\in\InstrumentDetails.csv (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:28) [classes/:?]
+2025-04-13 21:58:26.041 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73bd2335208sm4943374b3a.166 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:113) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:46) [classes/:?]
+2025-04-13 22:04:02.252 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:04:53.694 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\in\PositionDetails.csv (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:29) [classes/:?]
+2025-04-13 22:04:55.783 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22ac7c95c40sm82979475ad.127 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:113) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:46) [classes/:?]
+2025-04-13 22:06:36.961 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:07:02.944 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\in\Input.csv (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.CsvMerger.readCsvFile(CsvMerger.java:52) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:28) [classes/:?]
+2025-04-13 22:07:13.214 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:07:30.516 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:07:50.077 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:11:01.580 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: ..\out\PositionReport.csv (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at java.io.FileWriter.<init>(FileWriter.java:66) ~[?:?]
+	at com.example.CsvMerger.generateCsvOutput(CsvMerger.java:76) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:38) [classes/:?]
+2025-04-13 22:11:12.696 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:12:05.731 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:12:07.410 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:12:19.666 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at java.io.FileWriter.<init>(FileWriter.java:66) ~[?:?]
+	at com.example.CsvMerger.generateCsvOutput(CsvMerger.java:76) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:38) [classes/:?]
+2025-04-13 22:12:21.645 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73bd2198be9sm4975499b3a.9 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:113) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:46) [classes/:?]
+2025-04-13 22:21:11.138 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:21:21.973 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:21:21.974 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:21:33.478 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at java.io.FileWriter.<init>(FileWriter.java:66) ~[?:?]
+	at com.example.CsvMerger.generateCsvOutput(CsvMerger.java:86) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:39) [classes/:?]
+2025-04-13 22:21:35.020 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22ac7b628edsm83134955ad.10 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:124) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:47) [classes/:?]
+2025-04-13 22:22:30.173 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:22:30.182 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:22:30.182 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:28:11.846 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.io.FileNotFoundException: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at java.io.FileWriter.<init>(FileWriter.java:66) ~[?:?]
+	at com.example.CsvMerger.generateCsvOutput(CsvMerger.java:86) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:39) [classes/:?]
+2025-04-13 22:28:16.666 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:28:16.674 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:28:16.674 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:28:56.709 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 22:29:57.368 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:29:57.377 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:29:57.377 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:30:13.917 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-13 22:30:15.184 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 22:30:51.022 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:30:51.035 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:30:51.035 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:30:51.037 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-13 22:30:51.037 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 22:34:57.773 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:34:57.782 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:34:57.782 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:34:59.399 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 98e67ed59e1d1-306dd11e79fsm9550904a91.19 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:127) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:42) [classes/:?]
+2025-04-13 22:34:59.402 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 22:35:11.508 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 22:35:11.519 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 22:35:11.519 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 22:35:11.521 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-13 22:35:12.951 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 41be03b00d2f7-b02a322116bsm7785545a12.63 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:127) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:42) [classes/:?]
+2025-04-13 22:35:12.956 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 23:07:25.229 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:07:25.237 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:07:25.238 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:07:25.239 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-13 23:07:25.239 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 23:15:54.349 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:15:54.356 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:15:54.357 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:15:54.358 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-13 23:15:54.358 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 23:33:55.019 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:33:55.027 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:33:55.028 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:33:55.028 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.lang.NumberFormatException: For input string: "10 "
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.example.CsvMerger.processData(CsvMerger.java:73) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:37) [classes/:?]
+2025-04-13 23:33:56.920 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-73bd2198a89sm5089705b3a.5 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:128) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:48) [classes/:?]
+2025-04-13 23:35:33.909 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:35:33.917 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:35:33.917 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:35:33.918 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.lang.NumberFormatException: For input string: "10 "
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.valueOf(Integer.java:999) ~[?:?]
+	at com.example.CsvMerger.processData(CsvMerger.java:73) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:37) [classes/:?]
+2025-04-13 23:35:35.361 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-73bd22f830esm5218412b3a.95 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:128) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:48) [classes/:?]
+2025-04-13 23:36:03.966 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:36:03.974 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:36:03.975 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:36:03.976 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-13 23:36:03.976 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 23:39:16.826 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:39:16.833 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:39:16.833 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:40:28.950 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.lang.NumberFormatException: For input string: "10 "
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.valueOf(Integer.java:999) ~[?:?]
+	at com.example.CsvMerger.processData(CsvMerger.java:73) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:37) [classes/:?]
+2025-04-13 23:40:30.420 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 98e67ed59e1d1-306df06a1aesm9469867a91.5 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:128) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:48) [classes/:?]
+2025-04-13 23:43:11.060 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:43:11.068 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:43:11.068 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:43:34.598 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.lang.NumberFormatException: For input string: "10 "
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.example.CsvMerger.processData(CsvMerger.java:73) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:37) [classes/:?]
+2025-04-13 23:43:36.045 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-73bd230e56dsm5208280b3a.135 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:128) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:48) [classes/:?]
+2025-04-13 23:45:29.079 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:45:29.087 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:45:29.088 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:45:29.088 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.lang.NumberFormatException: For input string: "10 "
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.example.CsvMerger.processData(CsvMerger.java:73) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:37) [classes/:?]
+2025-04-13 23:45:30.683 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-22ac7c971b4sm84231365ad.116 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:129) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:48) [classes/:?]
+2025-04-13 23:47:03.549 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:47:03.559 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {=, ID =ABC123 , Unit Price =20 , ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:47:03.560 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {=, ID =ABC123 , Instrument ID=A1S2D3 , Quantity=10 }
+2025-04-13 23:47:03.560 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.lang.NullPointerException: Cannot invoke "String.trim()" because the return value of "java.util.Map.get(Object)" is null
+	at com.example.CsvMerger.processData(CsvMerger.java:73) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:37) [classes/:?]
+2025-04-13 23:47:04.988 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-22ac7caf8fdsm84173445ad.161 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:129) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:48) [classes/:?]
+2025-04-13 23:49:35.496 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:49:35.505 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {ID=ABC123 , Unit Price=20, ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:49:35.505 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {Instrument ID=A1S2D3 , Quantity=10, ID=ABC123 }
+2025-04-13 23:49:35.506 [main] ERROR com.example.CsvMerger - Error occurred during processing.
+java.lang.NullPointerException: Cannot invoke "String.trim()" because the return value of "java.util.Map.get(Object)" is null
+	at com.example.CsvMerger.processData(CsvMerger.java:73) ~[classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:37) [classes/:?]
+2025-04-13 23:49:36.944 [main] ERROR com.example.CsvMerger - Error occurred while sending email notification.
+javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-22ac7ccb7b5sm83491245ad.237 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:388) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:246) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Service.connect(Service.java:195) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.6.2.jar:1.6.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.6.2.jar:1.6.2]
+	at com.example.CsvMerger.sendEmailNotification(CsvMerger.java:129) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:48) [classes/:?]
+2025-04-13 23:49:59.750 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:49:59.759 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {ID=ABC123 , Unit Price=20, ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:49:59.759 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {Instrument ID=A1S2D3 , Quantity=10, ID=ABC123 }
+2025-04-13 23:49:59.761 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-13 23:49:59.761 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-13 23:58:58.345 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-13 23:58:58.356 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {ID=ABC123 , Unit Price=20, ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-13 23:58:58.356 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {Instrument ID=A1S2D3 , Quantity=10, ID=ABC123 }
+2025-04-13 23:58:58.359 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-13 23:58:58.359 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-14 00:47:51.962 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-14 00:47:51.970 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {ID=ABC123 , Unit Price=20, ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-14 00:47:51.970 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {Instrument ID=A1S2D3 , Quantity=10, ID=ABC123 }
+2025-04-14 00:48:06.861 [main] INFO  com.example.CsvMerger - Starting to process files: {ID=ABC123 , Unit Price=20, ISIN=Q1W2E3R4 , Name=Dolak } and {Instrument ID=A1S2D3 , Quantity=10, ID=ABC123 }
+2025-04-14 00:48:06.861 [main] ERROR com.example.CsvMerger - Error processing files
+java.lang.NullPointerException: Cannot invoke "com.example.DatabaseManager.storeData(String, java.util.Map)" because "com.example.CsvMerger.dbManager" is null
+	at com.example.CsvMerger.dbRecordInsertion(CsvMerger.java:77) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:42) [classes/:?]
+2025-04-14 00:48:06.874 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-14 00:48:06.874 [main] INFO  com.example.CsvMerger - Application finished successfully.
+2025-04-14 00:48:55.610 [main] INFO  com.example.CsvMerger - Application started.
+2025-04-14 00:48:55.619 [main] DEBUG com.example.CsvMerger - Data from CSV 1: {ID=ABC123 , Unit Price=20, ISIN=Q1W2E3R4 , Name=Dolak }
+2025-04-14 00:48:55.619 [main] DEBUG com.example.CsvMerger - Data from CSV 2: {Instrument ID=A1S2D3 , Quantity=10, ID=ABC123 }
+2025-04-14 00:49:07.520 [main] INFO  com.example.CsvMerger - Starting to process files: {ID=ABC123 , Unit Price=20, ISIN=Q1W2E3R4 , Name=Dolak } and {Instrument ID=A1S2D3 , Quantity=10, ID=ABC123 }
+2025-04-14 00:49:34.960 [main] ERROR com.example.CsvMerger - Error processing files
+java.lang.NullPointerException: Cannot invoke "com.example.DatabaseManager.storeData(String, java.util.Map)" because "com.example.CsvMerger.dbManager" is null
+	at com.example.CsvMerger.dbRecordInsertion(CsvMerger.java:81) [classes/:?]
+	at com.example.CsvMerger.main(CsvMerger.java:41) [classes/:?]
+2025-04-14 00:49:41.477 [main] INFO  com.example.CsvMerger - Output file generated: C:\Users\GADDAM DHRUV ADHRITH\Desktop\Srinivas\out\PositionReport.csv
+2025-04-14 00:49:41.477 [main] INFO  com.example.CsvMerger - Application finished successfully.
